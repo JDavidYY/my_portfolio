@@ -11,7 +11,7 @@
 }
 .waveWrapper {
     overflow: hidden;
-   // position: absolute;
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
@@ -25,9 +25,14 @@
     height: 100%;
     background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
 }
+
 .bgTop {
-    z-index: 15;
+    
     opacity: 0.5;
+    z-index: 15;
+.bgTop h1{
+    opacity: 1;
+}
 }
 .bgMiddle {
     z-index: 10;
@@ -65,4 +70,13 @@
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
+}
+.background_top{
+    background-image: url("../images/wave-top.png");
+}
+.background_mid{
+    background-image: url("../images/wave-mid.png");
+}
+.background_bot{
+    background-image: url("../images/wave-bot.png");
 }
