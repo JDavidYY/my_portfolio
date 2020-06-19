@@ -1,18 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 
 
 const IndexPage = () => (
   <div className="waveWrapper waveAnimation">
+    
   <div className="waveWrapperInner bgTop"> 
+  <h1 className="font-sans font-light text-center font-medium items-center justify-center align-middle flex h-full items-center justify-center text-white px-4 flex text-5xl mb-2r" >Hello. I'm <span Name="font-bold">David Yon</span></h1>
     <div className="wave waveTop" style={{backgroundImage: `url(`+'http://front-end-noobs.com/jecko/img/wave-top.png'+`)`}}>
+   
     </div>
-    <h1 className="font-sans font-medium text-white text-center" >Hello. I 'm <span className="font-bold"> David Yon</span></h1>
+    
   </div>
   
   <div className="waveWrapperInner bgMiddle">
