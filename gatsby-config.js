@@ -40,10 +40,11 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-        `Sacramento`,    
+          `limelight`,
+          `Sacramento\:300,400,400i,700` // you can also specify font weights and styles
         ],
-        display: 'swap',
-      },
+        display: 'swap'
+      }
     }
    
     // this (optional) plugin enables Progressive Web App + Offline functionality
