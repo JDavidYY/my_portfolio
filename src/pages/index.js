@@ -17,7 +17,7 @@ const IndexPage = () => (
     </div>
     <Link
     to="/projects" 
-    className="bg-transparent text-white font-medium font-sans py-2 px-4 border border-white rounded opacidad mt-16">
+    className="bg-transparent text-white font-medium font-sans py-2 px-4 border border-white rounded opacidad mt-24">
     See my work
     </Link>
   
