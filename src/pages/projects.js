@@ -1,18 +1,11 @@
 import React from 'react';
+import About from "../components/About";
 
 const projectsPage = () => {
     return (
         <div className="container mx-auto px-4">
-            <nav className="items-center">
-                <ul class="flex navpos">
-                    <li class="mr-4">
-                        <a class="text-purple-500 border-black hover:text-orange-500 navpos" href="/">About</a>
-                    </li>
-                    <li class="mr-4">
-                        <a class="text-purple-500 hover:text-orange-500 navpos" href="#">Projects</a>
-                    </li>
-                </ul>
-            </nav>
+            
+            <About/>
             <div className="container items-center justify-center clear-right">
                 <h1 className="text-5xl mb-10 text-purple-800 border-black text-center"> Projects </h1>
             </div>

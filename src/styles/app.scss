@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import './general.scss';
+
+@import './components/ui';
+
+@import './components/Banner.scss';
+@import './components/TechIcon.scss';
