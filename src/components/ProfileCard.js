@@ -34,7 +34,7 @@ const ProfileCard = () => {
           <li>
             <FontAwesomeIcon icon={faInstagram} className="mr-3" />
             <a
-              href="https://www.instagram.com/david_yon04/"
+              href="https://www.instagram.com/david_yon04/?hl=es"
               target="_blank"
               rel="noreferrer"
             >
