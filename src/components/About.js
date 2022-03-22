@@ -8,8 +8,8 @@ const frontList = [
   { label: 'JavaScript'},
   { label: 'TypeScript'},
   { label: 'CSS'},
+  { label: 'Angular'},
   { label: 'React'},
-  { label: 'Vue'},
   { label: 'Bootstrap'},
   { label: 'materialUI'},
   { label: 'Gatsby'},
@@ -18,7 +18,6 @@ const frontList = [
 ];
 
 const backList = [
-  { label: 'PHP'},
   { label: 'Node'},
   { label: 'Python'},
   { label: 'Odoo'},
@@ -39,10 +38,10 @@ const About = () => {
           <Column side="right">
             <Columns>
               <Column side="half">
-                <TechCard title="FRONT END" img="https://icon-library.com/images/web-dev-icon/web-dev-icon-21.jpg" list={frontList} />
+                <TechCard title="FRONT END" img="https://renzocorredor.com/wp-content/uploads/2020/07/Recurso-1.png" list={frontList} />
               </Column>
               <Column side="half">
-                <TechCard title="BACK END" img="https://www.yourplantedroots.com/wp-content/uploads/2019/07/backend.png" list={backList} />
+                <TechCard title="BACK END" img="https://i.pinimg.com/originals/a9/88/6f/a9886fa9e8f6f0ddce4dfd264a1b21ed.png" list={backList} />
               </Column>
             </Columns>
           </Column>

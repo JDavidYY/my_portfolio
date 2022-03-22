@@ -12,7 +12,7 @@ const IndexPage = () => (
       ¡Hello! I'm <span className="font-bold">David Yon</span>
     </h1>
     <p className="text-white text-center font-sans font-light text-xl mb-4">
-      I'm a student of Software Engineer based in Perú, passionate for code.
+      I'm a Software Engineer based in Perú, passionate for code.
     </p>
     <div style={{"width" : "100%", textAlign:"center", marginTop:'40px'}}>
       <Link
