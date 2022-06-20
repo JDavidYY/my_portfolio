@@ -2,6 +2,7 @@ import React from 'react';
 import About from "../components/About";
 import ProjectFintechPicture from '../components/ProjectFintechPicture';
 import ProjectChickenappPicture from '../components/ProjectChickenappPicture';
+import ProjectChickenApp from '../components/projectChickenApp';
 
 
 const projectsPage = () => {
@@ -14,7 +15,7 @@ const projectsPage = () => {
             </div>
             <div className="Container projects">
                 <div className="items-center project rounded overflow-hidden shadow-lg p-5 bg-white inline-block">
-                    <ProjectFintechPicture />
+                    <ProjectChickenApp />
                     <br/>
                     <h2 className=" text-center text-2xl font-medium text-color-white" > Asociación Fintech del Perú</h2>
                     <br/>    
